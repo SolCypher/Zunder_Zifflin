@@ -1,0 +1,39 @@
+
+To do lists:
+
+) Page MUST BE responsive in any size (desktops, tablets, mobile devices)
+    Use Javascript for responsive ()
+    Meta viewport tag & Media Screen rule for screen below 800px (DONE, KIND OF?)
+
+) Page sites (IN PROGRESS) :
+
+    - HOME Page ()
+        Dropdown Menu (DONE)
+        Promos (DONE)
+        Product Images (tinggal cari gbr)
+        Jquery Animation for Product Images & Promos(DONE)
+        Why Zunder is the best choice (DONE)
+
+    - Products Page (Daffa | DONE) :
+        Name (DONE)
+        Price (DONE)
+        Rating (DONE)
+        Brief Desc (DONE)
+
+    - Company Profile (Marwin) :
+        Company Desc ()
+        Logo (DONE)
+
+    - Contact Us (Marwin) :
+        Info on HQ and branches ()
+        Email ()
+        Phone ()
+
+    - Registration (FUCKIN DONE BITCH) :
+        Name (DONE)
+        Email (DONE)
+        Gender (DONE)
+        Address (DONE)
+        City (DONE)
+        Agreement TnS (DONE)
+        5 Kinds of Validations (DONE)

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+
+    <head>
+
+        <title>Register</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styleReg.css" />
+        <link rel="logo icon" href="./assets/Logo.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+        crossorigin="anonymous" />
+
+        <script src="./Register.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="main">
+
+            <div class="header">
+
+                <a href="Homepage.html">
+                    <img src="./assets/Logo.jpg" alt="Logo Image"/>
+                </a>
+                
+            </div>
+
+           <ul>  
+                <div class="navbutton">
+
+                    <li>
+                        <a href="Homepage.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+
+                    <li>
+                        <a href="Register.html">Register</a>
+                    </li>
+
+                </div>
+            
+                <div class="navbar" id="navbar-content">
+
+                    <li id= "dropdown" class="dropdown">
+                        
+                         <a href="#">   
+                            <i class="fas fa-bars"></i>
+                        </a>
+                       
+                            <div class="dropdown-content">
+                                <a href="Homepage.html">Home</a>
+                                <a href="products.html">Products</a>
+                                <a href="Register.html">Register</a>
+                            
+                            </div>
+
+                        </li>
+
+                        </div>
+                     </li>
+               
+                </div>
+           </ul>
+
+           <div class="pageTitle">
+                R e g i s t e r
+            </div>
+
+            <div class="content">
+
+                <div class="regContent">
+                    
+                    <form onsubmit="return validate()" action="#" method="GET">
+                        
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Full Name">
+                        <br>
+
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                        <br>
+                        
+                        <label for="gender">Gender: </label>
+                        <br>
+
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <br>
+
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <br>
+
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                        <br>
+
+                        <label for="address">Address: </label>
+                        <br>
+                        <textarea name="address" id="address"></textarea>
+                        <br>
+
+                        <label for="City">City: </label>
+                        <select name="city" id="city">
+                            <option value="default" selected disabled hidden>-Select City-</option>
+                            <option value="1">Jakarta</option>
+                            <option value="2">Bandung</option>
+                            <option value="3">Surabaya</option>
+                            <option value="4">Semarang</option>
+                            <option value="5">Medan</option>
+                        </select>
+                        <br>
+
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                        <label for="checkbox">Agree to terms & services</label>
+
+                        <div class="submitBtn">
+                            <input type="submit" value="Register" id="submitBtn">
+                        </div>
+
+                        <div class="errorMsg" id="errorMsg">
+                            
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="contact">
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                
+                <div class="about">
+                    <a href="profile.html">About Us</a>
+                </div>
+
+            </div>
+
+    </body>
+
+
+</html>

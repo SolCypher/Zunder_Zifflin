@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    max-height: 100%;
+    /* border: 1px solid black; */
+  }
+  
+  .header a {
+    display: contents;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    color: black;
+    /* border: 1px solid red; */
+  }
+  
+  .header img {
+    max-height: 30%;
+    max-width: 30%;
+  }
+  
+  .navbutton {
+    /* margin-top: 10px;
+      margin-bottom: 10px; */
+    display: none;
+    /* border:1px solid brown; */
+    max-height: 100%;
+  }
+  
+  .navbutton a {
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+  }
+  
+  .navbutton a:hover {
+    background-color: grey;
+  }
+  
+  .dropdown a {
+    color: black;
+    display: block;
+    padding: 14px 18px;
+  }
+  
+  .navbar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-height: 100%;
+    /* border: 1px solid red; */
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 14px 18px;
+    /* border: 1px solid black; */
+  }
+  
+  .dropdown-content {
+    background-color: black;
+    position: absolute;
+    min-width: 180px;
+    display: none;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    text-align: center;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: grey;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .pageTitle {
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    
+    font-size: 30px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    /* border: 1px solid blue; */
+  }
+  
+  .content {
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .info {
+    max-height: 100%;
+    margin-top: 20px;
+    text-align: justify;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  /* .productList {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 760px) {
+    .productList {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  } */
+  
+  .info p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-size: 12px;
+  }
+  
+  .productList {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .card {
+    display: inline-block;
+    text-align: center;
+    border-radius: 5%;
+    background-color: #868591;
+    margin: 20px;
+    padding: 0 6px;
+    width: 180px;
+    
+  }
+  
+  .pic {
+    display: inline-block;
+    max-width: 130px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    z-index: 1;
+    position: static;
+    border-radius: 50%;
+  } 
+  
+  .pic img {
+    border-radius: 30%;
+    
+    margin-bottom: 30px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .desc {
+      text-align: center;
+      margin-bottom: 20%;
+      font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    padding: 8px 8px;
+    /* margin-top: 50%; */ 
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+    bottom: 0;
+    /* border: 1px solid red; */
+  }
+  
+  .contact {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* height: 50px; */
+    max-height: 100%;
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .about {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    max-height: 100%;
+    /* height: 50px; */
+  }
+  
+  .about a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .dropdown a {
+      display: none;
+    }
+  
+    .navbutton {
+      display: block;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .productList {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .card {
+      display: block;
+      margin-left:auto;
+      margin-right:auto;
+    }
+  }

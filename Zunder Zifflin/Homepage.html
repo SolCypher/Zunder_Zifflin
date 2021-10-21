@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+
+    <head>
+
+        <title>Zunder Zifflin</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="styleHome.css"/>
+        <link rel="logo icon" href="assets/Logo.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+        crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+
+    </head>
+
+    <body>
+        
+        <div class="main">
+
+            <div class="header">
+
+                <a href="Homepage.html">
+                    <img src="./assets/Logo.jpg" alt="Logo Image"/>
+                </a>
+
+            </div>
+
+           <ul class="ulNavBtn">  
+
+            <div class="navbutton">
+
+                <li>
+                    <a href="Homepage.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="products.html">Products</a>
+                </li>
+
+                <li>
+                    <a href="Register.html">Register</a>
+                </li>
+
+            </div>
+            
+                <div class="navbar" id="navbar-content">
+
+                    <li id= "dropdown" class="dropdown">
+                        
+                         <a href="#"> 
+                            <i class="fas fa-bars"></i>
+                        </a>
+                       
+                            <div class="dropdown-content">
+                                <a href="Homepage.html">Home</a>
+                                <a href="products.html">Products</a>
+                                <a href="Register.html">Register</a>
+                            
+                            </div>
+
+                        </li>
+
+                        </div>
+                     </li>
+               
+                </div>
+           </ul>
+
+            <div class="greeting">
+                Welcome to Zunder Zifflin!
+            </div>
+
+                <div class="content">
+
+                    <div class="promosTitle">
+                        Today's Promos
+    
+                        <div class="promosSlider">
+
+                            <button id="prevPromosSlide">&uarr;</button> 
+
+                            <div class="promosSliderContent">                             
+                                <img src="./assets/round-free-delivery-stamp-png.png" alt="" class="promosImage active" />
+                                <img src="./assets/50-Off-Discount-PNG-1-300x300.png" alt="" class="promosImage" />
+                            </div>
+                            
+                            <button id="nextPromosSlide">&darr;</button> 
+
+                        </div>
+                    </div>
+
+                    <div class="descTitle">
+                      <h4>Why Zunder Zifflin is the <span class="best">BEST</span> choice?</h4>
+
+                        <div class="descText">
+                            <ul>
+                                <li>High quality of products</li>
+                                <li>Fast delivery</li>
+                                <li>Have all the supplies you need</li>
+                                <li>Best price</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="slider">
+
+                    <button id="prevSlide">&larr;</button>   
+
+                    <div class="sliderContent">
+                        <img src="./assets/notebook.jpg" alt="Notebook Img" class="slideImage sActive" />
+                        <img src="./assets/printer.jpg" alt="Printer Img" class="slideImage" />
+                        <img src="./assets/paper.jpg" alt="Paper Img" class="slideImage" />
+                    </div>
+
+                    <button id="nextSlide">&rarr;</button>
+                        
+                </div>
+
+            </div>
+
+            <div class="footer">
+
+                <div class="contact">
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                
+                <div class="about">
+                    <a href="profile.html">About Us</a>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+    <script src="HomeJs.js"></script>
+
+
+</html>
